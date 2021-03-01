@@ -4,7 +4,7 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 const customer = require('./output/customer');
-const waitlist = require('./output/waitlist');
+const waitList = require('./output/waitlist');
 
 // Sets up the Express App
 
@@ -18,7 +18,7 @@ app.use(express.json());
 // People who make reservation (DATA)
 
 const seated = [];
-const waitlist = [];
+// const waitlist = [];
 
 // Routes
 

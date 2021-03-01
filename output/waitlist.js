@@ -1,4 +1,4 @@
-const waitlist = ({tableNumber, id, name, email, phoneNumber}) => {
+const waitList = ({tableNumber, id, name, email, phoneNumber}) => {
     return `<div class="card-body">
     <ul id="tableList" class="list-group">
         <li class="list-group-item mt-4">
@@ -11,4 +11,4 @@ const waitlist = ({tableNumber, id, name, email, phoneNumber}) => {
         </li></div>`
 }
 
-module.exports = waitlist
+module.exports = waitList
